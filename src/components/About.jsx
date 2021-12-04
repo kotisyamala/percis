@@ -13,12 +13,16 @@ function About() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
+            <h1 class="font-weight-light">About PERCIS</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              As a fact, the Human's attention span dropped from 12sec in 2000
+              to shorter than 8sec in 2021. This is bad news for Marketers /
+              content creators to hold the attention of an average website
+              reader with lengthy articles.
+            </p>
+            <p>
+              PRECIS is an AI-powered text-to-speech(TTS) system which can
+              summarize any article content and read out a synopsis of it.
             </p>
           </div>
         </div>
