@@ -1,5 +1,6 @@
 import React from "react";
 import bitcoinImg from "../assets/bitcoin.png";
+import bitcoinMiningImg from "../assets/bitcoinmining.png";
 import "./Post.css";
 class Post extends React.Component {
   render() {
@@ -10,7 +11,11 @@ class Post extends React.Component {
             The Future Of Cryptocurrency in 2021 and Beyond
           </h1>
           <h6 className="mb-5">Understanding Bitcoin</h6>
-          <img src={bitcoinImg} alt="Bitcoin" class="postImage" />
+          <img
+            src={bitcoinImg}
+            alt="Bitcoin"
+            class="img-fluid rounded mb-4 mb-lg-0"
+          />
           <p>
             A cryptocurrency is a digital currency that is created and managed
             through the use of advanced encryption techniques known as
@@ -40,7 +45,11 @@ class Post extends React.Component {
             still needs to be the demand to want to invest in crypto, which
             might not automatically be generated with a fund.
           </p>
-
+          <img
+            src={bitcoinMiningImg}
+            alt="Bitcoin Mining"
+            class="img-fluid rounded mb-4 mb-lg-0"
+          />
           <b>Understanding Bitcoin</b>
           <p>
             Bitcoin is a decentralized currency that uses peer-to-peer

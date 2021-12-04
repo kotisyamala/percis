@@ -1,5 +1,5 @@
 import React from "react";
-
+import readingImg from "./assets/reading.png";
 function About() {
   return (
     <div className="about">
@@ -8,8 +8,8 @@ function About() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
+              src={readingImg}
+              alt="reading"
             />
           </div>
           <div class="col-lg-5">
