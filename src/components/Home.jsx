@@ -1,5 +1,5 @@
 import React from "react";
-
+import summaryicon from "./assets/summary.png";
 function Home() {
   return (
     <div className="home">
@@ -8,12 +8,13 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              src={summaryicon}
               alt=""
             />
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">Home</h1>
+
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

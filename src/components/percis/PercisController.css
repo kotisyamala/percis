@@ -1,0 +1,6 @@
+img.idea {
+  width: 30px;
+}
+.synopsis:hover img.idea {
+  background-color: yellow;
+}

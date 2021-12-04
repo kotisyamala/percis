@@ -11,7 +11,8 @@ import {
   Contact,
   Blog,
   Posts,
-  Post
+  Post,
+  PercisController
 } from "./components";
 
 ReactDOM.render(
@@ -23,7 +24,10 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+        <Route
+          path="/blog/this-is-a-post-title"
+          element={<PercisController />}
+        />
       </Route>
     </Routes>
     <Footer />
