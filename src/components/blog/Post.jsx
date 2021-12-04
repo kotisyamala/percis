@@ -154,7 +154,8 @@ class Post extends React.Component {
             XRP, which has a mathematical foundation like Bitcoin. The payment
             mechanism enables the transfer of funds in any currency to another
             user on the Ripple network within seconds, in contrast to Bitcoin
-            transactions, which can take as long as 10 minutes to confirm.
+            transactions, which can take as long as 10 minutes to confirm. is
+            backed by a physical currency, the Canadian dollar.
           </p>
           <p>
             MintChip – Unlike most cryptocurrencies, MintChip is actually the
@@ -173,7 +174,8 @@ class Post extends React.Component {
             to surmount is the basic paradox that bedevils cryptocurrencies –
             the more popular they become, the more regulation and government
             scrutiny they are likely to attract, which erodes the fundamental
-            premise for their existence.
+            premise for their existence. most people, except for the
+            technologically adept.
           </p>
 
           <p>
@@ -223,4 +225,3 @@ class Post extends React.Component {
     );
   }
 }
-export default Post;

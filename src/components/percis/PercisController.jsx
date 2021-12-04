@@ -6,7 +6,7 @@ import "./PercisController.css";
 class PercisController extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { user: [], ReadTime: [] };
+    this.state = { user: [] };
   }
 
   componentDidMount() {
@@ -26,9 +26,7 @@ class PercisController extends React.Component {
     }
     //Prepare content for voice api call by removing [...] unwanted chars
     let pageContentWithoutSplChars = pageContent.replace("[...]", "");
-
-    console.log("ReadTime :" + readingTime(pageContent));
-    this.state.ReadTime = readingTime(pageContent);
+    console.log("pageContent :" + pageContent);
     console.log("sentences:" + sentences + " numberOfWords:" + numberOfWords);
     let formdata = new FormData();
     formdata.append("key", "b8e422f6e87679edd3a236bb458d564e");
@@ -62,9 +60,6 @@ class PercisController extends React.Component {
           {this.state.user.summary}
         </details>
         <div>
-          <div>
-            <b>Article Read time: </b>about {this.state.ReadTime} min
-          </div>
           <Post />
         </div>
       </div>
@@ -73,9 +68,3 @@ class PercisController extends React.Component {
 }
 
 export default PercisController;
-function readingTime(text) {
-  const wpm = 225;
-  const words = text.trim().split(/\s+/).length;
-  const time = Math.ceil(words / wpm);
-  return time;
-}
